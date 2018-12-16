@@ -5,7 +5,7 @@ This project contains 3 main models implementing artificial intelligence techniq
 
 2. Naive Bayes Model - Another custom implementation. Classifies by comparing probability of seeing given song lyrics conditioning on each artist. Run by executing bayes.py. Also uses functions and variables declared in util.py. adjust pseudocount (lambda) used for Laplace Smoothing with its variable at the top of bayes.py.
 
--Both models use word based N-gram feature extraction. The value of N can be adjusted through the variable n at the top of util.py
+-Both of the above models use word based N-gram feature extraction. The value of N can be adjusted through the variable n at the top of util.py
 -for both of the models mentioned above, the following booleans at the top of util.py can be set to True to print certain values after classification and evaluation: 
 	-print_correct_counts to print out a list of the artists in descending order of recall rate.
 	-print_incorrect_pairs to print out a list of pairs of artists in descending order of the number of times the classifier confused one for the other
